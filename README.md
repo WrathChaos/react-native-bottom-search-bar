@@ -2,7 +2,7 @@
 
 Elegant & Cool also fully customizable bottom search bar for React Native.
 
-[![npm version](https://img.shields.io/npm/v/@freakycoder/react-native-bottom-search-bar.svg)](https://www.npmjs.com/package/react-native-bottom-search-bar)
+[![npm version](https://img.shields.io/npm/v/react-native-bottom-search-bar.svg)](https://www.npmjs.com/package/react-native-bottom-search-bar)
 [![npm](https://img.shields.io/npm/dt/react-native-bottom-search-bar.svg)](https://www.npmjs.org/package/react-native-bottom-search-bar)
 ![Platform - Android and iOS](https://img.shields.io/badge/platform-Android%20%7C%20iOS-blue.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
