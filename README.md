@@ -53,26 +53,35 @@ npm i react-native-bottom-search-bar
 ### Configuration - Props
 
 
-| Property              |   Type    |  Default   | Description                                                                  |
-| --------------------- | :-------: | :--------: | ---------------------------------------------------------------------------- |
-| styles                |  styles   |   styles   | use this to change main style of the header                                  |
-| height                |  number   |     50     | use this to change the header's height                                       |
-| width                 |  number   |    100%    | use this to change the header's width                                        |
-| statusBarHidden       |  boolean  |   false    | use this to let Header Component itself re-arrange depends on the status bar |
-| hitSlops              |  object   | object: 30 | use this to change the header's left and right components' hitSlots          |
-| bottomStick           |  boolean  |   false    | stick the header to bottom side                                              |
-| headerTitle           |  string   |     ""     | use this to set header's title                                               |
-| backgroundColor       |   color   |  #ffffff   | use this to change the header's background color                             |
-| leftComponent         | component |    Icon    | set the left component                                                       |
-| leftComponentStyle    |   style   |   style    | set the left component's style                                               |
-| leftComponentDisable  |  boolean  |   false    | disable the left component                                                   |
-| leftComponentOnPress  | function  |    null    | set the left component's onPress function                                    |
-| rightComponent        | component |    Icon    | set the right component                                                      |
-| rightComponentStyle   |   style   |   style    | set the right component's style                                              |
-| rightComponentDisable |  boolean  |   false    | disable the right component                                                  |
-| rightComponentOnPress | function  |    null    | set the right component's onPress function                                   |
-| centerComponent       | component |    Icon    | set the center component                                                     |
-| centerComponentStyle  |   style   |   style    | set the center component's style                                             |
+| Property                 |   Type    |           Default           | Description                                                              |
+| ------------------------ | :-------: | :-------------------------: | ------------------------------------------------------------------------ |
+| height                   |  number   |             80              | use this to change main component's height                               |
+| iPhoneXHeight            |  number   |             100             | If you do not set this prop, it will automatically use the "height" prop |
+| backgroundColor          |   color   |            white            | change the main component's background color                             |
+| borderTopLeftRadius      |  number   |             24              | change the border radius top left side                                   |
+| borderTopRightRadius     |  number   |             24              | change the border radius top right side                                  |
+| shadowColor              |   color   |       rgba(0,0,0,0.2)       | use this to change the shadow color                                      |
+| searchBoxWidth           |  number   |             60%             | change the search box's width                                            |
+| searchBoxBorderRadius    |  number   |             20              | change the search box's border radius                                    |
+| searchBoxBackgroundColor |   color   |           #F5F7FA           | change the search box's background color                                 |
+| searchBoxWidth           |  number   |             60%             | change the search box's width                                            |
+| iconName                 |  string   |           search            | use this to change the search box icon                                   |
+| iconType                 |  string   |          EvilIcons          | use this to change the icon's type                                       |
+| iconColor                |   color   |           #90A2BD           | use this to change the icon's color                                      |
+| iconSize                 |  number   |             25              | use this to change the icon's size                                       |
+| iconComponent            | component |            Icon             | use this to implement your own Icon component                            |
+| searchBoxText            |  string   | "What are you looking for?" | use this to set search box's text                                        |
+| buttonText               |  string   |           Hotspot           | use this to change the button's text                                     |
+| buttonOnPress            | function  |          function           | use this to set your onPress function to the button                      |
+| buttonIconName           |  string   |      ios-arrow-forward      | use this to change the button's icon                                     |
+| buttonIconType           |  string   |          Ionicons           | use this to change the button icon's type                                |
+| buttonIconColor          |   color   |            white            | use this to change the button icon's color                               |
+| buttonIconSize           |  number   |             15              | use this to change the button icon's size                                |
+| buttonIconComponent      | component |            Icon             | set your own icon component for the button                               |
+| buttonFontSize           |  number   |             12              | change the button's text font size                                       |
+| buttonTextColor          |   color   |            white            | change the button's text color                                           |
+| buttonBackgroundColor    |   color   |           #FFC484           | change the button's background color                                     |
+| disableButtonIcon        |  boolean  |            false            | disable the button's icon component                                      |
 
 ## Credits
 I get the inspiration from Joo Find App. This is the exact bottom search bar from their concept design. Thank you for this inspiration :)
