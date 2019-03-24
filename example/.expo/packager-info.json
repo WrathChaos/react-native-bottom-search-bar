@@ -3,7 +3,7 @@
   "expoServerPort": null,
   "packagerPort": null,
   "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null
+  "expoServerNgrokUrl": "https://ve-pi9.freakycoder.example.exp.direct",
+  "packagerNgrokUrl": "https://packager.ve-pi9.freakycoder.example.exp.direct",
+  "ngrokPid": 37062
 }
