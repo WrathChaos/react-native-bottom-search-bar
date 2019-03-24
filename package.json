@@ -1,0 +1,28 @@
+{
+  "name": "react-native-bottom-search-bar",
+  "version": "0.0.1",
+  "description": "Elegant & Cool also fully customizable bottom search bar for React Native.",
+  "keywords": [
+    "search-bar",
+    "search",
+    "bottom",
+    "bottom-search-bar",
+    "react-native",
+    "javascript",
+    "ui-lib",
+    "rn"
+  ],
+  "homepage": "https://www.freakycoder.com",
+  "bugs": "https://github.com/WrathChaos/react-native-bottom-search-bar/issues",
+  "main": "./lib/src/components/BottomSearchBar.js",
+  "repository": "git@github.com:WrathChaos/react-native-bottom-search-bar.git",
+  "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">= 16.x",
+    "react-native": ">= 0.55.x",
+    "react-native-vector-icons": ">= 6.x.x",
+    "react-native-iphone-x-helper": ">= x.x.x",
+    "react-native-dynamic-vector-icons": ">= x.x.x"
+  }
+}
