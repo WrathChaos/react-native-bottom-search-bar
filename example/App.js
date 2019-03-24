@@ -1,14 +1,13 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-// import BottomSearchBar from "react-native-bottom-search-bar";
-import BottomSearchBar from "./lib/src/components/BottomSearchBar";
+import BottomSearchBar from "react-native-bottom-search-bar";
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <BottomSearchBar />
         <Text>Open up App.js to start working on your app!</Text>
+        <BottomSearchBar />
       </View>
     );
   }
@@ -17,7 +16,7 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#F3F5F5",
+    backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center"
   }
