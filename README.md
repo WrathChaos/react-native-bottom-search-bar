@@ -14,8 +14,8 @@ Elegant & Cool also fully customizable bottom search bar for React Native.
 
 <p align="center">
 <img alt="React Native Bottom Search Bar" src="https://github.com/WrathChaos/react-native-bottom-search-bar/blob/master/assets/Screenshots/example.png" width="650" height="250"/>
-<img alt="React Native Bottom Search Bar" src="https://github.com/WrathChaos/react-native-bottom-search-bar/blob/master/assets/Screenshots/example3.png" width="350" height="160"/>
-<img alt="React Native Bottom Search Bar" src="https://github.com/WrathChaos/react-native-bottom-search-bar/blob/master/assets/Screenshots/example2.png" width="350" height="160"/>
+<img alt="React Native Bottom Search Bar" src="https://github.com/WrathChaos/react-native-bottom-search-bar/blob/master/assets/Screenshots/example3.png" width="400" height="170"/>
+<img alt="React Native Bottom Search Bar" src="https://github.com/WrathChaos/react-native-bottom-search-bar/blob/master/assets/Screenshots/example2.png" width="400" height="170"/>
 </p>
 
 
