@@ -72,6 +72,7 @@ npm i react-native-bottom-search-bar
 | ------------------------- | :-------: | :-------------------------: | ------------------------------------------------------------------------ |
 | height                    |  number   |             80              | use this to change main component's height                               |
 | iPhoneXHeight             |  number   |             100             | If you do not set this prop, it will automatically use the "height" prop |
+| onChangeText              | function  |           default           | get the text input's change function                                     |
 | backgroundColor           |   color   |            white            | change the main component's background color                             |
 | borderTopLeftRadius       |  number   |             24              | change the border radius top left side                                   |
 | borderTopRightRadius      |  number   |             24              | change the border radius top right side                                  |
