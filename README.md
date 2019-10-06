@@ -1,11 +1,8 @@
 <img alt="React Native Bottom Search Bar" src="https://github.com/WrathChaos/react-native-bottom-search-bar/blob/master/assets/logo.png" width="1050"/>
 
-
 [![Battle Tested ✅](https://img.shields.io/badge/-Battle--Tested%20%E2%9C%85-03666e?style=for-the-badge)](https://github.com/WrathChaos/react-native-bottom-search-bar)
 
-
 [![Elegant & Cool also fully customizable bottom search bar for React Native](https://img.shields.io/badge/-Elegant%20%26%20Cool%20also%20fully%20customizable%20bottom%20search%20bar%20for%20React%20Native-lightgrey?style=for-the-badge)](https://github.com/WrathChaos/react-native-bottom-search-bar)
-
 
 [![npm version](https://img.shields.io/npm/v/react-native-bottom-search-bar.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-bottom-search-bar)
 [![npm](https://img.shields.io/npm/dt/react-native-bottom-search-bar.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-bottom-search-bar)
@@ -22,7 +19,6 @@
 <img alt="React Native Bottom Search Bar" src="https://github.com/WrathChaos/react-native-bottom-search-bar/blob/master/assets/Screenshots/example3.png" width="400" height="170"/>
 <img alt="React Native Bottom Search Bar" src="https://github.com/WrathChaos/react-native-bottom-search-bar/blob/master/assets/Screenshots/example2.png" width="400" height="170"/>
 </p>
-
 
 ## Installation
 
@@ -52,11 +48,10 @@ npm i react-native-bottom-search-bar
 <BottomSearchBar />
 ```
 
-
 ## Advanced Usage
 
 ```ruby
-<BottomSearchBar 
+<BottomSearchBar
     height={125}
     iPhoneXHeigh={150}
     disableHomeButton
@@ -73,12 +68,12 @@ npm i react-native-bottom-search-bar
 
 ### Configuration - Props
 
-
 | Property                  |   Type    |           Default           | Description                                                              |
 | ------------------------- | :-------: | :-------------------------: | ------------------------------------------------------------------------ |
 | height                    |  number   |             80              | use this to change main component's height                               |
 | iPhoneXHeight             |  number   |             100             | If you do not set this prop, it will automatically use the "height" prop |
 | onChangeText              | function  |           default           | get the text input's change function                                     |
+| disableTextInput          |  boolean  |            false            | disable the text input and instead you can use it as a button            |
 | backgroundColor           |   color   |            white            | change the main component's background color                             |
 | borderTopLeftRadius       |  number   |             24              | change the border radius top left side                                   |
 | borderTopRightRadius      |  number   |             24              | change the border radius top right side                                  |
@@ -116,9 +111,10 @@ npm i react-native-bottom-search-bar
 | homeButtonIconComponent   | component |            Icon             | set your own icon component instead of the default one                   |
 
 ## Credits
+
 I get the inspiration from Joo Find App. This is the exact bottom search bar from their concept design. Thank you for this inspiration :)
-Here is the uplabs link:[JooFind App Concept]( https://www.uplabs.com/posts/joo-find))  
-Thank you for this awesome concept work [FireArt Studio ](https://www.uplabs.com/fireart)) 
+Here is the uplabs link:[JooFind App Concept](https://www.uplabs.com/posts/joo-find))  
+Thank you for this awesome concept work [FireArt Studio ](https://www.uplabs.com/fireart))
 
 ## Author
 
