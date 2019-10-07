@@ -11,13 +11,13 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier)
 
 <p align="center">
-<img alt="React Native Bottom Search Bar" src="https://github.com/WrathChaos/react-native-bottom-search-bar/blob/master/assets/Screenshots/inspiration.png" width="49.7%"/>
+<img alt="React Native Bottom Search Bar" src="assets/Screenshots/example.gif" width="49.7%"/>
 </p>
 
 <p align="center">
-<img alt="React Native Bottom Search Bar" src="https://github.com/WrathChaos/react-native-bottom-search-bar/blob/master/assets/Screenshots/example.png" width="650" height="250"/>
-<img alt="React Native Bottom Search Bar" src="https://github.com/WrathChaos/react-native-bottom-search-bar/blob/master/assets/Screenshots/example3.png" width="400" height="170"/>
-<img alt="React Native Bottom Search Bar" src="https://github.com/WrathChaos/react-native-bottom-search-bar/blob/master/assets/Screenshots/example2.png" width="400" height="170"/>
+<img alt="React Native Bottom Search Bar" src="assets/Screenshots/example.png" width="650" height="250"/>
+<img alt="React Native Bottom Search Bar" src="assets/Screenshots/example3.png" width="400" height="170"/>
+<img alt="React Native Bottom Search Bar" src="assets/Screenshots/example2.png" width="400" height="170"/>
 </p>
 
 ## Installation
