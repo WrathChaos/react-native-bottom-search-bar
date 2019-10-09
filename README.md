@@ -66,49 +66,58 @@ npm i react-native-bottom-search-bar
 />
 ```
 
-### Configuration - Props
+# Configuration - Props
 
-| Property                  |   Type    |           Default           | Description                                                              |
-| ------------------------- | :-------: | :-------------------------: | ------------------------------------------------------------------------ |
-| height                    |  number   |             80              | use this to change main component's height                               |
-| iPhoneXHeight             |  number   |             100             | If you do not set this prop, it will automatically use the "height" prop |
-| onChangeText              | function  |           default           | get the text input's change function                                     |
-| disableTextInput          |  boolean  |            false            | disable the text input and instead you can use it as a button            |
-| backgroundColor           |   color   |            white            | change the main component's background color                             |
-| borderTopLeftRadius       |  number   |             24              | change the border radius top left side                                   |
-| borderTopRightRadius      |  number   |             24              | change the border radius top right side                                  |
-| shadowColor               |   color   |       rgba(0,0,0,0.2)       | use this to change the shadow color                                      |
-| searchBoxWidth            |  number   |             60%             | change the search box's width                                            |
-| searchBoxBorderRadius     |  number   |             20              | change the search box's border radius                                    |
-| searchBoxBackgroundColor  |   color   |           #F5F7FA           | change the search box's background color                                 |
-| searchBoxWidth            |  number   |             60%             | change the search box's width                                            |
-| iconName                  |  string   |           search            | use this to change the search box icon                                   |
-| iconType                  |  string   |          EvilIcons          | use this to change the icon's type                                       |
-| iconColor                 |   color   |           #90A2BD           | use this to change the icon's color                                      |
-| iconSize                  |  number   |             25              | use this to change the icon's size                                       |
-| iconComponent             | component |            Icon             | use this to implement your own Icon component                            |
-| searchBoxText             |  string   | "What are you looking for?" | use this to set search box's text                                        |
-| buttonText                |  string   |           Hotspot           | use this to change the button's text                                     |
-| buttonOnPress             | function  |          function           | use this to set your onPress function to the button                      |
-| buttonIconName            |  string   |      ios-arrow-forward      | use this to change the button's icon                                     |
-| buttonIconType            |  string   |          Ionicons           | use this to change the button icon's type                                |
-| buttonIconColor           |   color   |            white            | use this to change the button icon's color                               |
-| buttonIconSize            |  number   |             15              | use this to change the button icon's size                                |
-| buttonIconComponent       | component |            Icon             | set your own icon component for the button                               |
-| buttonFontSize            |  number   |             12              | change the button's text font size                                       |
-| buttonTextColor           |   color   |            white            | change the button's text color                                           |
-| buttonBackgroundColor     |   color   |           #FFC484           | change the button's background color                                     |
-| disableButton             |  boolean  |            false            | disable the button itself (on the right one)                             |
-| disableButtonIcon         |  boolean  |            false            | disable the button's icon component                                      |
-| disableHomeButton         |  boolean  |            false            | disable the home button's itself                                         |
-| homeButtonOnPress         | function  |          function           | set your own onPress function for home button                            |
-| homeButtonSize            |  number   |             30              | change the home button's size                                            |
-| homeButtonBackgroundColor |   color   |           #FFC484           | change the home button's background color                                |
-| homeButtonIconName        |  string   |            home             | use this to change the home button's icon                                |
-| homeButtonIconType        |  string   |           Entypo            | use this to change the home button's icon type                           |
-| homeButtonIconSize        |  number   |             15              | use this to change the home button's icon size                           |
-| homeButtonIconColor       |   color   |            white            | use this to change the home button's icon color                          |
-| homeButtonIconComponent   | component |            Icon             | set your own icon component instead of the default one                   |
+## Main Props
+
+| Property                  |   Type    |      Default      | Description                                                              |
+| ------------------------- | :-------: | :---------------: | ------------------------------------------------------------------------ |
+| height                    |  number   |        80         | use this to change main component's height                               |
+| iPhoneXHeight             |  number   |        100        | If you do not set this prop, it will automatically use the "height" prop |
+| onChangeText              | function  |      default      | get the text input's change function                                     |
+| disableTextInput          |  boolean  |       false       | disable the text input and instead you can use it as a button            |
+| backgroundColor           |   color   |       white       | change the main component's background color                             |
+| borderTopLeftRadius       |  number   |        24         | change the border radius top left side                                   |
+| borderTopRightRadius      |  number   |        24         | change the border radius top right side                                  |
+| shadowColor               |   color   |  rgba(0,0,0,0.2)  | use this to change the shadow color                                      |
+| buttonText                |  string   |      Hotspot      | use this to change the button's text                                     |
+| buttonOnPress             | function  |     function      | use this to set your onPress function to the button                      |
+| buttonIconName            |  string   | ios-arrow-forward | use this to change the button's icon                                     |
+| buttonIconType            |  string   |     Ionicons      | use this to change the button icon's type                                |
+| buttonIconColor           |   color   |       white       | use this to change the button icon's color                               |
+| buttonIconSize            |  number   |        15         | use this to change the button icon's size                                |
+| buttonIconComponent       | component |       Icon        | set your own icon component for the button                               |
+| buttonFontSize            |  number   |        12         | change the button's text font size                                       |
+| buttonTextColor           |   color   |       white       | change the button's text color                                           |
+| buttonBackgroundColor     |   color   |      #FFC484      | change the button's background color                                     |
+| disableButton             |  boolean  |       false       | disable the button itself (on the right one)                             |
+| disableButtonIcon         |  boolean  |       false       | disable the button's icon component                                      |
+| disableHomeButton         |  boolean  |       false       | disable the home button's itself                                         |
+| homeButtonOnPress         | function  |     function      | set your own onPress function for home button                            |
+| homeButtonSize            |  number   |        30         | change the home button's size                                            |
+| homeButtonBackgroundColor |   color   |      #FFC484      | change the home button's background color                                |
+| homeButtonIconName        |  string   |       home        | use this to change the home button's icon                                |
+| homeButtonIconType        |  string   |      Entypo       | use this to change the home button's icon type                           |
+| homeButtonIconSize        |  number   |        15         | use this to change the home button's icon size                           |
+| homeButtonIconColor       |   color   |       white       | use this to change the home button's icon color                          |
+| homeButtonIconComponent   | component |       Icon        | set your own icon component instead of the default one                   |
+
+## SearchBox Props
+
+| Property                 |   Type    |          Default          | Description                                           |
+| ------------------------ | :-------: | :-----------------------: | ----------------------------------------------------- |
+| iconName                 |  string   |          search           | set the icon name                                     |
+| iconType                 |  string   |         EvilIcons         | set the icon type                                     |
+| iconSize                 |  number   |            25             | set the icon size                                     |
+| iconColor                |   color   |           #000            | set the icon color                                    |
+| onChangeText             | function  |         function          | set your own logic for changing text                  |
+| searchBoxText            |  string   | What are you looking for? | set the search box's text                             |
+| searchBoxOnPress         | function  |         function          | set your own logic when tapping the search box itself |
+| searchBoxWidth           |  number   |            95%            | change the search box's width                         |
+| searchBoxBorderRadius    |  number   |             8             | change the search box's border radius                 |
+| searchBoxBackgroundColor |   color   |          #f5f5f5          | change the search box's background color              |
+| iconComponent            | component |           Icon            | set your own icon component instead of Icon           |
+| disableTextInput         |  boolean  |           false           | disable or enable the text input itself               |
 
 ## Credits
 
