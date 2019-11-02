@@ -38,7 +38,7 @@ npm i react-native-bottom-search-bar
 "react": ">= 16.x",
 "react-native": ">= 0.55.x",
 "react-native-vector-icons": ">= 6.x.x",
-"react-native-iphone-x-helper": ">= x.x.x",
+"@freakycoder/react-native-helpers": "0.0.21",
 "react-native-dynamic-vector-icons": ">= x.x.x"
 ```
 
