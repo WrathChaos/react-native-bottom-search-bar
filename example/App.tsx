@@ -1,6 +1,6 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
-import BottomSearchBar from './lib/BottomSearchBar';
+import BottomSearchBar from './build/dist/BottomSearchBar';
 
 export default class App extends React.Component {
   render() {

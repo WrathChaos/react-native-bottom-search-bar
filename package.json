@@ -14,7 +14,7 @@
   ],
   "homepage": "https://www.freakycoder.com",
   "bugs": "https://github.com/WrathChaos/react-native-bottom-search-bar/issues",
-  "main": "./lib/src/BottomSearchBar.js",
+  "main": "./build/dist/BottomSearchBar.js",
   "repository": "git@github.com:WrathChaos/react-native-bottom-search-bar.git",
   "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
   "license": "MIT",
