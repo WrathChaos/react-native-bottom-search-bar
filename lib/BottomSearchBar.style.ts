@@ -1,5 +1,5 @@
 import {Platform, StyleSheet} from 'react-native';
-import {isIPhoneXFamily} from '@freakycoder/react-native-helpers';
+import {hasNotch} from '@freakycoder/react-native-helpers';
 
 export const _shadowStyle = shadowColor => ({
   ...Platform.select({
@@ -30,7 +30,7 @@ export const glueContainer = props => {
     backgroundColor: backgroundColor || '#fff',
     borderTopLeftRadius: borderTopLeftRadius || 24,
     borderTopRightRadius: borderTopRightRadius || 24,
-    height: isIPhoneXFamily() ? iPhoneXHeight || height || 100 : height || 80,
+    height: hasNotch() ? iPhoneXHeight || height || 100 : height || 80,
   };
 };
 
