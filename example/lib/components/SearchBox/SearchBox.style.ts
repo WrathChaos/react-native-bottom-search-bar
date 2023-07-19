@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import {StyleSheet} from 'react-native';
 
 export function searchBoxContainer(
   searchBoxWidth: number,
@@ -16,20 +16,20 @@ export function searchBoxContainer(
 
 export default StyleSheet.create({
   searchBoxGlue: {
-    alignItems: "center",
-    flexDirection: "row",
+    alignItems: 'center',
+    flexDirection: 'row',
     paddingLeft: 3,
     height: 25,
   },
   searchBoxTextStyle: {
     left: 5,
-    width: "85%",
+    width: '85%',
     fontSize: 12,
-    color: "#90A2BD",
+    color: '#90A2BD',
   },
   searchImageStyle: {
     width: 15,
     height: 15,
-    tintColor: "#aaa",
+    tintColor: '#aaa',
   },
 });

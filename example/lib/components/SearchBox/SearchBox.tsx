@@ -1,6 +1,6 @@
-import React from "react";
-import { TextInput, Image, TouchableOpacity, Text, View } from "react-native";
-import styles, { searchBoxContainer } from "./SearchBox.style";
+import React from 'react';
+import {TextInput, Image, TouchableOpacity, Text, View} from 'react-native';
+import styles, {searchBoxContainer} from './SearchBox.style';
 
 interface SearchBoxProps {
   searchBoxText?: string;
@@ -13,13 +13,13 @@ interface SearchBoxProps {
 }
 
 const SearchBox: React.FC<SearchBoxProps> = ({
-  searchBoxText = "What are you looking for?",
+  searchBoxText = 'What are you looking for?',
   iconComponent,
   onSearchBoxPress,
   disableTextInput = false,
-  searchBoxWidth = "55%",
+  searchBoxWidth = '55%',
   searchBoxBorderRadius = 20,
-  searchBoxBackgroundColor = "#F5F7FA",
+  searchBoxBackgroundColor = '#F5F7FA',
   ...rest
 }) => {
   const renderTextInput = () => {
@@ -42,8 +42,7 @@ const SearchBox: React.FC<SearchBoxProps> = ({
         searchBoxBorderRadius,
         searchBoxBackgroundColor,
       )}
-      onPress={onSearchBoxPress}
-    >
+      onPress={onSearchBoxPress}>
       <View style={styles.searchBoxGlue}>
         {iconComponent || (
           <Image

@@ -1,8 +1,8 @@
-import React from "react";
-import { TouchableOpacity, View, Image } from "react-native";
-import SearchBox from "./components/SearchBox/SearchBox";
-import ButtonComponent from "./components/ButtonComponent/ButtonComponent";
-import styles, { _shadowStyle, glueContainer } from "./BottomSearchBar.style";
+import React from 'react';
+import {TouchableOpacity, View, Image} from 'react-native';
+import SearchBox from './components/SearchBox/SearchBox';
+import ButtonComponent from './components/ButtonComponent/ButtonComponent';
+import styles, {_shadowStyle, glueContainer} from './BottomSearchBar.style';
 
 const BottomSearchBar = (props: any) => {
   const {
@@ -23,7 +23,7 @@ const BottomSearchBar = (props: any) => {
         {homeButtonIconComponent || (
           <Image
             resizeMode="contain"
-            source={require("./local-assets/home.png")}
+            source={require('./local-assets/home.png')}
             style={[styles.iconImageStyle, homeIconImageStyle]}
           />
         )}
@@ -34,8 +34,10 @@ const BottomSearchBar = (props: any) => {
   return (
     <View style={styles.container}>
       <View
-        style={[glueContainer(props), shadowStyle || _shadowStyle(shadowColor)]}
-      >
+        style={[
+          glueContainer(props),
+          shadowStyle || _shadowStyle(shadowColor),
+        ]}>
         <View style={styles.glue}>
           {!disableHomeButton && renderHomeButton()}
           <SearchBox {...props} />
