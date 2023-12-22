@@ -27,7 +27,7 @@
     "@commitlint/config-conventional": "^17.6.7",
     "@react-native-community/eslint-config": "^3.2.0",
     "@types/react": "^18.2.15",
-    "@types/react-native": "^0.72.2",
+    "@types/react-native": "^0.73.0",
     "eslint": "^8.45.0",
     "eslint-config-airbnb": "^19.0.4",
     "husky": "^8.0.0",
