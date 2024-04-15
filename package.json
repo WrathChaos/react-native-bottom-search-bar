@@ -23,7 +23,7 @@
     "react-native-dynamic-vector-icons": ">= x.x.x"
   },
   "devDependencies": {
-    "@commitlint/cli": "^18.5.0",
+    "@commitlint/cli": "^19.2.2",
     "@commitlint/config-conventional": "^17.6.7",
     "@react-native-community/eslint-config": "^3.2.0",
     "@types/react": "^18.2.15",
